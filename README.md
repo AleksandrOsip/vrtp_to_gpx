@@ -13,7 +13,7 @@ INFO:root:Will write output to: Track227.vrtp.gpx
 
 ## Batch transformation
 ```
-$ find . -name \*.vrtp -type f -exec python3 ./convert.py -d -i {} \
+$ find . -name \*.vrtp -type f -exec python3 ./convert.py -d -i {} \;
 ```
 
 ## Details
